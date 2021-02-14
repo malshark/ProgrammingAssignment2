@@ -15,7 +15,7 @@
 ###################################
 
 makeCacheMatrix <- function(x = matrix()) {
-# Example input: Insert matrix e.g x<-matrix(rnorm(64),8,8)
+# Example input: Insert matrix e.g x<-matrix(rnorm(64),6,6)
 ## To check cached values: 
 # xMat<-makeCacheMatrix(x)  # Run the function
 # parent.env(xMat$getenv())$m  # Check the cached mean
